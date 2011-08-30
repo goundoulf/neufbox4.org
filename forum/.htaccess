@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /forum/
+
+RewriteRule ^inscription$ register.php
+RewriteRule ^connexion$ login.php
+RewriteRule ^recherche$ search.php
+
+</IfModule>

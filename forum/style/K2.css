@@ -1,0 +1,613 @@
+/****************************************************************/
+
+/* 0. IMPORT DES FEUILLES DE STYLE */
+
+/****************************************************************/
+
+/* Import de la feuille de style de base */
+
+@import url(imports/base.css);
+
+/* Import du thème de couleur */
+
+@import url(imports/K2_cs.css);
+
+
+/****************************************************************/
+
+/* 1. GLOBAL HEADER STYLE */
+
+/****************************************************************/
+
+html {
+	overflow-y: scroll; 
+	height: 100%;
+	margin-bottom: 0.1em;
+}
+
+/*
+body {
+	background: #EDEDED;
+}
+*/
+
+#global-page {
+	background: white;
+	text-align: left;
+	margin: 0 auto;
+	padding: 20px 0 10px;
+	width: 780px;
+	position: relative;
+	border: 1px solid #ddd;
+	border-top: none;
+	clear: both;
+}
+
+#global-header {
+	font: 62.5% 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #444;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	height: 200px;
+	background: #3371A3;
+}
+
+#global-header h1 {
+	font-family: 'Trebuchet MS', Verdana, Sans-Serif;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 75px 40px 0;
+	border: none;
+}
+
+#global-header h1,
+#global-header h1 a,
+#global-header h1 a:hover,
+#global-header h1 a:visited,
+#global-header .global-description {
+	text-decoration: none;
+	color: white;
+}
+
+#global-header h1 a:hover {
+	text-decoration: underline;
+}
+
+#global-header .global-description {
+	font-size: 1em;
+	margin: 0 40px;
+}
+
+#global-header .global-menu {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: 90%;
+}
+
+#global-header .global-menu li {
+	display: inline;
+	margin: 0;
+}
+
+#global-header .global-menu,
+#global-header .global-menu li a {
+	padding: 5px 15px 6px;
+}
+
+#global-header .global-menu li a {
+	font-size: 1em;
+	color: white;
+	margin: 0;
+	text-decoration: none;
+}
+
+#global-header .global-menu li a:hover {
+	background: #333;
+	color: #eee !important;
+	text-decoration: none;
+}
+
+#global-header .global-menu li.current_page_item a,
+#global-header .global-menu li.current_page_item a:hover {
+	color: #333 !important;
+	background: white;
+	text-decoration: none;
+}
+
+#global-footer {
+	font: 62.5% 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #444;
+	clear: both;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+	color: #777;
+}
+
+#global-footer p {
+	margin: 0;
+}
+
+#global-footer a {
+	color: #888;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	text-decoration:none;
+	padding: 0;
+	margin: 0;
+}
+
+#global-footer a:hover {
+	border: none;
+	text-decoration: none;
+	color: #000;
+}
+
+
+/****************************************************************/
+
+/* 2. PARAMETRES DU TEXTE */
+
+/****************************************************************/
+
+
+
+/* 2.1 Ceci fixe la famille de police par défaut */
+
+
+
+.pun, .pun INPUT, .pun SELECT, .pun TEXTAREA, .pun OPTGROUP {
+
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+
+
+.pun {FONT-SIZE: 11px; LINE-HEIGHT: normal}
+
+
+
+/* Taille de police d'Internet Explorer seulement - pour permettre à IE de zoomer.  N'enlevez pas les commentaires \*/
+
+* HTML .pun {FONT-SIZE: 68.75%}
+
+/* Fin de la taille des polices pour IE */
+
+
+
+/* Règle la taille de la police pour ces tableaux parce que IE l'exige */
+
+.pun TABLE, .pun INPUT, .pun SELECT, .pun OPTGROUP, .pun TEXTAREA, DIV.postmsg P.postedit {FONT-SIZE: 1em}
+
+
+
+/* 2.2 Règle la taille de la police pour le texte préformaté c.-à-d. dans des boîtes de code */
+
+
+
+.pun PRE {FONT-FAMILY: monaco, "Bitstream Vera Sans Mono", "Courier New", courier, monospace}
+
+
+
+/* 2.3 Taille de police pour les en-têtes (headers en anglais) */
+
+
+
+.pun H2, .pun H4 {FONT-SIZE: 1em}
+
+.pun H3 {FONT-SIZE: 1.1em}
+
+#brdtitle H1 {FONT-SIZE: 1.4em}
+
+
+
+/* 2.4 Texte plus gros pour les objets particuliers */
+
+
+
+DIV.postmsg P {LINE-HEIGHT: 1.4}
+
+DIV.postleft DT {FONT-SIZE: 1.1em}
+
+.pun PRE {FONT-SIZE: 1.2em}
+
+
+
+/* 2.5 Texte en gras */
+
+
+
+DIV.postleft DT, DIV.postmsg H4, TD.tcl H3, DIV.forminfo H3, P.postlink, DIV.linkst LI,
+
+DIV.linksb LI, DIV.postlinksb LI, .blockmenu LI, #brdtitle H1, .pun SPAN.warntext, .pun P.warntext {FONT-WEIGHT: bold}
+
+
+
+/****************************************************************/
+
+/* 3. LIENS */
+
+/****************************************************************/
+
+
+
+/* 3.1 Enlève le soulignement pour le menu principal, les liens en en-tête, les liens et les menus verticaux */
+
+
+
+#brdmenu A:link, #brdmenu A:visited, .blockpost DT A:link, .blockpost DT A:visited, .blockpost H2 A:link,
+
+.blockpost H2 A:visited, .postlink A:link, .postlink A:visited, .postfootright A:link, .postfootright A:visited,
+
+.blockmenu A:link, .blockmenu A:visited {
+
+	TEXT-DECORATION: none
+}
+
+
+
+/* 3.2 Souligne au passage de la souris (ou hover en anglais) pour des liens dans les en-têtes et dans le menu principal */
+
+
+
+#brdmenu A:hover, .blockpost H2 A:hover {TEXT-DECORATION: underline}
+
+
+
+/****************************************************************/
+
+/* 4. LARGEUR ET MODÈLE DE BORDURE */
+
+/****************************************************************/
+
+
+
+/* 4.1 Par défaut les bordures sont solides (forment un trait plein) et font 1 pixel */
+
+
+
+DIV.box, .pun TD, .pun TH, .pun BLOCKQUOTE, DIV.codebox, DIV.forminfo, DIV.blockpost LABEL {
+
+	BORDER-STYLE: solid;
+	BORDER-WIDTH: 1px
+}
+
+
+
+/* 4.2 Réglages spéciaux pour le logo du forum */
+
+
+
+#brdheader DIV.box {BORDER-TOP-WIDTH: 0}
+
+
+
+/* 4.3 Bordures pour les cellules des tableaux */
+
+
+
+.pun TD, .pun TH {
+
+	BORDER-BOTTOM: none;
+	BORDER-RIGHT: none
+}
+
+
+
+.pun .tcl {BORDER-LEFT: none}
+
+
+
+/* 4.4 Réglage spécial pour les jeu de champs afin de préserver ceux par défaut de IE */
+
+
+
+DIV>FIELDSET {
+
+	BORDER-STYLE: solid;
+	BORDER-WIDTH: 1px
+}
+
+
+
+/****************************************************************/
+
+/* 5. ESPACEMENT VERTICAL ET DE LA PAGE */
+
+/****************************************************************/
+
+
+
+/* 5.1 Marge des pages */
+
+
+
+HTML, BODY {MARGIN: 0; PADDING: 0}
+
+#punwrap {padding: 20px 0 0; margin: 0 20px;}
+
+
+/* 5.2 Crée un espace vertical entre les éléments du tableau de bord (marges) */
+
+
+
+DIV.blocktable, DIV.block, DIV.blockform, DIV.block2col, #postreview {MARGIN-BOTTOM: 12px}
+
+#punindex DIV.blocktable, DIV.blockpost {MARGIN-BOTTOM: 6px}
+
+DIV.block2col DIV.blockform, DIV.block2col DIV.block {MARGIN-BOTTOM: 0px}
+
+DIV.blocktable H2 A {FLOAT: right}
+
+
+/* 5.3 Supprime l'espace au-dessus des breadcrumbs (infos qui indiquent l'emplacement exact d'une page au sein d'une arborescence) et des liens qui ont une marge supérieure négative */
+
+
+
+DIV.linkst, DIV.linksb {MARGIN-TOP: -12px}
+
+DIV.postlinksb {MARGIN-TOP: -6px}
+
+
+
+/* 5.4 Mets un espace de 12px au-dessus de la boîte d'information du forum sur la page d'index parce que les tableaux de catégorie ont un espace de seulement 6px sous eux  */
+
+
+
+#brdstats {MARGIN-TOP: 12px}
+
+
+
+/****************************************************************/
+
+/* 6. ESPACEMENT AUTOUR DU CONTENU */
+
+/****************************************************************/
+
+
+
+/* 6.1 Remplissage par défaut des éléments principaux */
+
+
+
+DIV.block DIV.inbox, DIV.blockmenu DIV.inbox {PADDING: 3px 6px}
+
+.pun P, .pun UL, .pun DL, DIV.blockmenu LI, .pun LABEL, #announce DIV.inbox DIV {PADDING: 3px 0}
+
+.pun H2 {PADDING: 4px 6px}
+
+
+
+/* 6.2 Espacement spécial pour divers éléments */
+
+
+
+.pun H1 {PADDING: 3px 0px 0px 0}
+
+#brdtitle P {PADDING-TOP: 0px}
+
+DIV.linkst {PADDING: 8px 6px 3px 6px}
+
+DIV.linksb, DIV.postlinksb {PADDING: 3px 6px 8px 6px}
+
+#brdwelcome, #brdfooter DL A, DIV.blockmenu LI, DIV.rbox INPUT  {LINE-HEIGHT: 1.4em}
+
+#viewprofile DT, #viewprofile DD {PADDING: 0 3px; LINE-HEIGHT: 2em}
+
+
+
+/* 6.4 Crée un espacement horizontal pour divers éléments */
+
+
+
+#brdmenu LI, DIV.rbox INPUT, DIV.blockform P INPUT  {MARGIN-RIGHT: 12px}
+
+
+
+/****************************************************************/
+
+/* 7. ESPACEMENT POUR LES TABLEAUX */
+
+/****************************************************************/
+
+
+
+.pun TH, .pun TD {PADDING: 4px 6px}
+
+.pun TD P {PADDING: 5px 0 0 0}
+
+
+
+/****************************************************************/
+
+/* 8. ESPACEMENT POUR LES POSTS */
+
+/****************************************************************/
+
+
+
+/* 8.1 Remplissage autour des colonnes gauches et droites dans viewtopic */
+
+
+
+DIV.postleft DL, DIV.postright {PADDING: 6px}
+
+
+
+/* 8.2 Espacement supplémentaires pour contacter le posteur et pour son avatar */
+
+
+
+DD.usercontacts, DD.postavatar {MARGIN-TOP: 5px}
+
+DD.postavatar {MARGIN-BOTTOM: 5px}
+
+
+
+/* 8.3 Espacement supérieur supplémentaire pour les signatures pour "édité par" */
+
+
+
+DIV.postsignature, DIV.postmsg P.postedit {PADDING-TOP: 15px}
+
+
+
+/* 8.4 Espacement pour les boîtes de code et de citation */
+
+
+
+DIV.postmsg H4 {MARGIN-BOTTOM: 10px}
+
+.pun BLOCKQUOTE, DIV.codebox {MARGIN: 5px 15px 15px 15px; PADDING: 8px}
+
+
+
+/* 8.5 Remplissage pour les liens d'action (ex : Poster une réponse) et l'indicateur en ligne dans viewtopic */
+
+
+
+DIV.postfootleft P, DIV.postfootright UL, DIV.postfootright DIV {PADDING: 10px 6px 5px 6px}
+
+
+
+/* 8.6 Ceci est l'entrée visuelle des modérateurs pour supprimer plusieurs sujets */
+
+
+
+DIV.blockpost INPUT, DIV.blockpost LABEL {
+
+	PADDING: 3px;
+	DISPLAY: inline
+}
+
+
+
+P.multidelete {
+
+	PADDING-TOP: 15px;
+	PADDING-BOTTOM: 5px
+}
+
+
+
+/* 8.7 S'assure que les paragraphes dans des posts n'obtiennent aucune remplissage */
+
+
+
+DIV.postmsg P {PADDING: 0}
+
+
+
+/****************************************************************/
+
+/* 9. ESPACEMENT SPECIAL POUR LES FORMULAIRES */
+
+/****************************************************************/
+
+
+
+/* 9.1 Remplissage autour des champs */
+
+
+
+DIV.blockform FORM, DIV.fakeform {PADDING: 20px 20px 15px 20px}
+
+DIV.inform {PADDING-BOTTOM: 12px}
+
+
+
+/* 9.2 Remplissage à l'intérieur des champs */
+
+
+
+.pun FIELDSET {PADDING: 0px 12px 0px 12px}
+
+DIV.infldset {PADDING: 9px 0px 12px 0}
+
+.pun LEGEND {PADDING: 0px 6px}
+
+
+
+/* 9.3 Pour la boîte d'information au dessus du formulaire d'enregistrement et ailleurs */
+
+
+
+DIV.forminfo {
+
+	MARGIN-BOTTOM: 12px;
+	PADDING: 9px 10px
+}
+
+
+
+/* 9.4 Liens d'aide de BBCode sous les formulaires de post */
+
+
+
+UL.bblinks LI {PADDING-RIGHT: 20px}
+
+
+
+UL.bblinks {PADDING-BOTTOM: 10px; PADDING-LEFT: 4px}
+
+
+
+/* 9.5 Positionnement horizontal pour le bouton d'envoi des formulaires */
+
+
+
+DIV.blockform P INPUT {MARGIN-LEFT: 12px}
+
+
+
+/****************************************************************/
+
+/* 10. INDICATEURS DE STATUTS DES POST */
+
+/****************************************************************/
+
+
+
+/* 10.1 Ce sont les indicateurs de statut des post, qui apparaissent à gauche de quelques tableaux : 
+
+.inew = nouveaux posts, .iredirect = forums de redirection, .iclosed = sujets fermés 
+
+et .isticky = sujets épinglés. Par défaut seul .inew est différent du défaut. */
+
+
+
+DIV.icon {
+
+	FLOAT: left;
+
+	MARGIN-TOP: 0.1em;
+
+	MARGIN-LEFT: 0.2em;
+
+	DISPLAY: block;
+
+	BORDER-WIDTH: 0.6em 0.6em 0.6em 0.6em;
+
+	BORDER-STYLE: solid
+
+}
+
+
+
+DIV.searchposts DIV.icon {MARGIN-LEFT: 0}
+
+
+
+/* 10.2 La class .tclcon est une division à l'intérieur de la première colonne des tableaux qui ont des indicateurs de statuts de posts. 
+
+La marge crée l'espace pour les indicateurs de statuts de posts */
+
+
+
+TD DIV.tclcon {MARGIN-LEFT: 2.3em}
