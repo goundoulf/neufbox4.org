@@ -1,0 +1,32 @@
+div#g404ajax {width:99%;overflow:hidden;margin-left:2px;}
+
+div#lDiv {width:140px;float:right}
+div#lDiv .gsc-control .gsc-ad-box {padding-top:100px;}
+
+div#rDiv {min-width:400px; min-height:400px;width:75%;}
+div#rDiv .gsc-control .gsc-ad-box,#gDiv {height:120px; margin-bottom:20px; padding:1em; width:99%; background-color:#EAF9EA;overflow:hidden;}
+
+#gDiv .gsc-control .gsc-ad-box {width:50%;}
+#gDiv .gsc-control .gsc-resultsHeader {border-bottom-width:0;color:#2B2D2B;font-weight:bold;}
+#gDiv .gsc-control .gsc-results {position:relative; display:block; margin:0; overflow:hidden;}
+#gDiv .gsc-control .gsc-results .gsc-trailing-more-results,#gDiv .gsc-control .gsc-results .gsc-expansionArea,.gs-videoResult .gs-text-box,.gs-imageResult .gs-text-box {display:none;}
+
+
+#sFormDiv .gsc-input {margin-right:200px;}
+#sFormDiv .gsc-clear-button {width:30px;}
+#sFormDiv .gsc-search-button {width:100px; }
+.gsc-control {width:100% !important;margin:0 auto;position:relative;overflow:hidden;}
+.gsc-control form {width:96%;}
+.gsc-control table {margin:0;padding:0;}
+
+.gsc-control, .gsc-control * {font-family:"trebuchet ms", verdana, sans-serif;font-size:13px;}
+
+/*
+.gsc-result {border: 1px solid #FFF;}
+.gsc-result:hover {border-color: #888;}
+*/
+
+table.gsc-search-box {margin-left:0;}
+
+
+

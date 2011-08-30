@@ -1,0 +1,90 @@
+#ag4_box_javascript_code iframe,#ag4_box_css_code iframe,#ag4_box_html_code iframe {min-height:425px;min-width: 35em; width: 95%; max-width: 97%;display:block;}
+#ag4_form {width:98%;min-width:35em;margin-left:0}
+#ag4 form textarea { font-family:Consolas,Monaco,Courier,monospace;font-size:12px;min-width: 35em; width: 95%; max-width: 97%;}
+#ag4 form p { width:97%}
+#ag4 .postbox-container {width:98%;min-width:35em;margin-left:0;}
+
+#ag4 #preview {margin-top:1.5em;padding-top:.5em;border-top:1px solid #666;}
+
+#ag4 textarea.tcode { border-size:2px;font-size:12px;width:96%;margin:1px auto}
+
+#ag4 p.binfo {background-color:#F4F4F4; border:1px solid #ccc; padding:1em; margin:1.25em auto 2em 20px;width: 93%; max-width: 99%;}
+
+#ag4 h4.cl5 { margin:3.5em 0 .5em 0;padding-bottom:.25em;border-bottom:1px solid #b1b1b1}
+#ag4 h4.cl5 a { font-weight:normal;font-size:12px}
+#ag4 p.c4r { padding:5px 20px 5px 1px;margin-bottom:0.75em;margin-top:0.75em;margin-left:8px;border-bottom: 1px solid #DDDDDD;}
+#ag4 p.c4r label { display:block;float:left;width:30em;line-height:20px}
+#ag4 p.c4r input {float:left;width:auto;margin-left:4px; margin-right:10px;text-align:left;}
+#ag4 p.c4r input[type="text"] {min-width:3em;width:auto;max-width:99%;}
+#ag4 p.c4r #ag4_adsense_key, 
+#ag4 p.c4r #ag4_analytics_key,
+#ag4 p.c4r #ag4_analytics_url,
+#ag4 p.c4r #ag4_api_key, 
+#ag4 p.c4r #ag4_iframe_url, 
+#ag4 p.c4r #ag4_robots_tag,
+#ag4 p.c4r #ag4_api_key { width:97%; }
+#ag4 .updated p { line-height:1.3em}
+#ag4 .fad { background-color:#CCEAFF;border:1px solid #55ABE6;padding:0 0.6em;margin:5px 15px 2px;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+
+#ag4 a:link.a4BTN,#ag4 a:visited.a4BTN,#ag4 a:hover.a4BTN,#ag4 a:active.a4BTN { color:#005FA9;background-color:transparent;border-bottom:none;font-weight:bold;font-size:1em;cursor:pointer}
+#ag4 a:hover.a4BTN { text-decoration:none;color:#000}
+#ag4 .a4BTN { display:block;position:relative;margin:0;width:8em;margin-left:12px;margin-bottom:.5em;background-color:transparent;border:0;cursor:pointer}
+#ag4 .a4BTN span { display:block}
+#ag4 .a4BTN .y { position:relative;padding:6px 12px 2px 0;text-align:center;background-position:top right}
+#ag4 .a4BTN .t { position:absolute;left:0;top:0;width:12px;margin-left:-12px;height:100%;background-position:top left}
+#ag4 .a4BTN .b,#ag4 .a4BTN .b span { clear:both;height:7px;font-size:1px}
+#ag4 .a4BTN .b { position:relative;width:100%;text-align:left;background-position:bottom right}
+#ag4 .a4BTN .b span { position:relative;width:12px;margin-left:-12px;background-position:bottom left}
+#ag4 .a4BTN span .x { font-weight:bold}
+
+#ag4 .aasubmit-button {text-decoration:none;background-color:#585858;color:#AAAAAA;text-shadow:0 -1px 0 #3F3F3F;-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;cursor:pointer;display:inline-block;font-size:105%;font-style:normal;line-height:24px;margin-left:0;padding:0 6px;vertical-align:middle;}	
+#ag4 .aasubmit-button:hover {color:#000;background-color:#CCC;}
+
+#ag4 .aasubmit-b {text-decoration:none;background-color:#1f5591;color:#a1c9f6;text-shadow:0 -1px 0 #0e2e52;-moz-border-radius-bottomleft:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;cursor:pointer;display:inline-block;font-size:120%;font-style:normal;line-height:28px;margin-left:0;padding:0 6px;vertical-align:middle;}	
+#ag4 .aasubmit-b:hover {color:#0e2e52;background-color:#73a7e1;}
+
+#ag4 .mmpre { font:normal 99%px/105% Consolas,"Andale Mono","Lucida Console","Courier New",monospace;padding:3px;margin:1px;overflow-x:auto;background:#FFF;color:#000;border:2px solid #F7F7F7;overflow-x:auto}
+
+#ag4 #ag4_form code {margin:1px;padding:3px;}
+
+#ag4-tabs {margin-top:0.5em;}
+ul.ui-tabs-nav {margin-bottom:-1px;padding-left:1.5em;}
+ul.ui-tabs-nav li {-moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;background:none repeat scroll 0 0 #F4F4F4;border:1px solid #DFDFDF;display:inline-block;font-weight:bold;margin:0 0.5em 0 0;text-shadow:0 1px 0 #FFFFFF;}
+ul.ui-tabs-nav li.ui-tabs-selected {background:none repeat scroll 0 0 white;border-bottom-color:white;color:black;}
+ul.ui-tabs-nav li a {color:#C1C1C1;display:inline-block;padding:0.5em 1em 0.6em;text-decoration:none;}
+ul.ui-tabs-nav li.ui-tabs-selected a {color:black;}
+.ui-tabs .ag4-section {-moz-border-radius:6px 6px 6px 6px;background:none repeat scroll 0 0 white;border:1px solid #DFDFDF;padding-bottom:1em;}
+
+/*
+ * CodePress color styles for JavaScript syntax highlighting
+ */
+
+.javascript b {color:#7F0055;font-weight:bold;} /* reserved words */
+.javascript u {color:darkblue;font-weight:bold;} /* special words */
+.javascript i, .javascript i b, .javascript i s, .javascript i u {color:green;font-weight:normal;} /* comments */
+.javascript s, .javascript s b, .javascript s u {color:#2A00FF;font-weight:normal;} /* strings */
+/*
+ * CodePress color styles for HTML syntax highlighting
+ */
+
+.html b {color:#000080;} /* tags */
+.html ins, .html ins b, .html ins s, .html ins em {color:gray;} /* comments */
+.html s, .html s b {color:#7777e4;} /* attribute values */
+.html a {color:green;} /* links */
+.html u {color:#E67300;} /* forms */
+.html big {color:#db0000;} /* images */
+.html em, .html em b {color:#800080;} /* style */
+.html strong {color:#800000;} /* script */
+.html tt i {color:darkblue;font-weight:bold;} /* script reserved words */
+/*
+ * CodePress color styles for PHP syntax highlighting
+ */
+
+.php b {color:#000080;} /* tags */
+.php big, .php big b, .php big em, .php big ins, .php big s, .php strong i, .php strong i b, .php strong i s, .php strong i u, .php strong i a, .php strong i a u, .php strong i s u {color:gray;font-weight:normal;} /* comments */
+.php s, .php s b, .php strong s u, .php strong s cite {color:#5656fa;font-weight:normal;} /* attributes and strings */
+.php strong a, .php strong a u {color:#006700;font-weight:bold;} /* variables */
+.php em {color:#800080;font-style:normal;} /* style */
+.php ins {color:#800000;} /* script */
+.php strong u {color:#7F0055;font-weight:bold;} /* reserved words */
+.php cite, .php s cite {color:red;font-weight:bold;} /* <?php and ?> */
